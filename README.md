@@ -1,16 +1,5 @@
-# bloc_counter
+# BLoC Counter
 
-A new Flutter project.
+This is a simple counter app made using the bloc state management architecture.
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
-
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+I followed [this tutorial](https://bloclibrary.dev/#/fluttercountertutorial) on building the app but I have made some minor changes such as removing unecessary code from the counter observer. I have also changed the theme of the application to be in a dark theme with purple floating action buttons. Also, I have asbtracted away the floating action button into its own class. As I dont know the best practices for handling extracted widgets in BLoC yet if anyone has any advice please feel free to make an issue or pull request to help me understand it better.
